@@ -3,9 +3,8 @@
     using namespace std;
 
     int main() {
-        int count_man;
-        int count_barber;
-        int need_barber;
+        int count_man; // кол-во мужчин в городе
+        int count_barber; // кол-во нанятых барберов
 
 
         cout << "Введите кол-во мужчин в городе: ";
