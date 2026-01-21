@@ -19,17 +19,17 @@ int main() {
         return 0;
     }
     
-    if (count_barber!=0) 
+    if (count_barber!=0) // проверка если исходное кол-во барберов 0, т.к. делить на 0 нельзя
     {
-        if (count_man%(count_barber*8)==0) {
+        if (count_man%(count_barber*8)==0) { //если кол-во барберов совпадает вровент с кол-вом людей
             cout <<"Нужно нанять ещё " <<count_man/(count_barber*8)-count_barber;
-        } else {
+        } else {  //если не совпадает
             cout <<"Нужно нанять ещё " <<count_man/(count_barber*8)+1-count_barber;
         }
     } else {
-        if (count_man%8==0) {
+        if (count_man%8==0) {  //если кол-во барберов совпадает вровент с кол-вом людей
             cout <<"Нужно нанять ещё " <<count_man/8;
-        } else {
+        } else { //если не совпадает
             cout <<"Нужно нанять ещё " <<count_man/8+1;
         }
     }
