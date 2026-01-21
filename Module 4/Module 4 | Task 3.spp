@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a;
+
+    cout << "Введите число ";
+    cin >> a;
+
+    cout << "----------Проверяем--------" << endl;
+
+    if (a%2==0) {
+        cout <<"Число чётное!";
+    } else {
+        cout << "Число нечётное! ";
+    }
+}
