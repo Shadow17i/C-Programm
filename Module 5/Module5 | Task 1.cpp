@@ -3,8 +3,8 @@
     using namespace std;
 
     int main() {
-        int speed; // кол-во мужчин в городе
-        int height; // кол-во нанятых барберов
+        int speed;
+        int height;
 
 
         cout << "Введите скорость самолёта: ";
