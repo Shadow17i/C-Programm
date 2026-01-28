@@ -6,7 +6,6 @@ int main() {
     int water;
     int milk;
     int welcome_drink;
-    bool flag;
 
     int Americano=0;
     int Latte=0;
